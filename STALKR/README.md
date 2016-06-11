@@ -19,8 +19,6 @@ STALKR does really well, scoring around 87% when using the entire chromosome. If
 *May 5, Zar recommended using thousand genomes project data*
 *May 12, I got the data for chormmosome 22*
 *May 19, I've come out with some general ideas for the algorithm*
-*May 26, I've started to process the data, and am deciding what* 
-*to use and which algorith I should implement, I'm thinking of using HMM*
+*May 26, I've started to process the data, and am deciding what to use and which algorith I should implement, I'm thinking of using HMM*
 *June 2, I've implemented the baseline, but HMM is somewhat of a mess*
-*June 9, I've finished my implementation, I used a different method,* 
-*that borrowed the idea of transition probabilities from HMM*
+*June 9, I've finished my implementation, I used a different method, that borrowed the idea of transition probabilities from HMM*
