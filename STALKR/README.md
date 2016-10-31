@@ -1,7 +1,7 @@
 # STALKR
 Sectioned, Transitioned Ancestry-mapping, Locally, of Know Regions
 
-STALKR is a fast implementation to local of ancestry mapping of known populations. For CS124, this was final project number 4 on medium difficulty. The project came out to be pretty time intensive, and I didn't get it to work how I had originally intended, but I'm happy with the results.
+STALKR is a fast implementation to local of ancestry mapping of known populations. Essentially, STALKR determines the region of origin of an individuals SNPs. For CS124, this was final project number 4 on medium difficulty. The project came out to be pretty time intensive, and I didn't get it to work how I had originally intended, but I'm happy with the results.
 
 ## How it works
 STALKR basically reads in all of the frequencies of SNPs per population (taken from 1000 genomes project). It then initializes the individual by examining a few hundred of their SNPs at once, and using the maximum likelihood of the population that would give those SNPs. After itializing an individual, STALKR examines SNPs in smaller clusters of about ~25 at a time. STALKR also incorporates transition probabilities. This helps lower the chance of switching to a different population, since breakpoints aren't very common. I tested STALKR on 10 simulated F2 individuals, and scored STALKR based on its average % correct SNP guesses per ten individuals. STALKR does better as individuals increase in size, and there are more data and SNPs available to examine. I used chromosome 22, but would likely score a bit better than 87% accuracy on a longer chromosome (or using more chromosomes).
