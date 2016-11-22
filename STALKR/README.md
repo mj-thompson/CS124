@@ -1,5 +1,5 @@
 # STALKR
-Sectioned, Transitioned Ancestry-mapping, Locally, of Know Regions
+Sectioned, Transitioned Ancestry-mapping, Locally, of Known Regions
 
 STALKR is a fast implementation to local of ancestry mapping of known populations. Essentially, STALKR determines the region of origin of an individuals SNPs. For CS124, this was final project number 4 on medium difficulty. The project came out to be pretty time intensive, and I didn't get it to work how I had originally intended, but I'm happy with the results.
 
